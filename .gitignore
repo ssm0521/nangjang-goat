@@ -1,0 +1,58 @@
+# ────────── 공통 ──────────
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# ────────── 환경변수 / 민감정보 ──────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secret.*
+google-services.json
+GoogleService-Info.plist
+
+# ────────── 백엔드 (Spring / Java) ──────────
+backend/build/
+backend/.gradle/
+backend/out/
+backend/bin/
+backend/HELP.md
+backend/*.log
+backend/data/
+backend/logs/
+backend/uploads/
+
+# ────────── 모바일 (Expo / React Native) ──────────
+backend/mobile/node_modules/
+backend/mobile/.expo/
+backend/mobile/.expo-shared/
+backend/mobile/dist/
+backend/mobile/web-build/
+backend/mobile/android/build/
+backend/mobile/android/app/build/
+backend/mobile/android/.gradle/
+backend/mobile/ios/build/
+backend/mobile/ios/Pods/
+
+# ────────── 웹 (React / Vite) ──────────
+web/node_modules/
+web/dist/
+web/.vite/
+web/coverage/
+
+# ────────── 데이터 / 임시 ──────────
+*.csv
+*.xlsx
+!**/.github/**
+dump.rdb
+*.sqlite
+*.sqlite3
+backend/crawler/**/*.html
+backend/crawler/**/output/
