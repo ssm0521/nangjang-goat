@@ -160,6 +160,18 @@ cp .env.example .env
 ### Firebase (모바일 FCM)
 `backend/mobile/google-services.json.example` 를 참고해 본인의 Firebase 프로젝트에서 `google-services.json` 을 받아 `backend/mobile/` 에 배치.
 
+### 데모 데이터 복원 (권장)
+팀 내 데모 영상 재현을 위한 전체 DB 덤프 포함. 백엔드 기동 **전에** 복원:
+```bash
+# MySQL 접속 후
+mysql -u root -p < seed/demo_full.sql
+# → naengjang_goat_db 데이터베이스가 자동 생성되고
+#    재료 13개 / 메뉴 3개 (삼겹살 구이·등심 스테이크·양파튀김) /
+#    레시피 BOM / POS 매핑 / KAMIS 1년치 농산물 가격 2,263건 /
+#    EKAPE 1년치 축산물 가격 1,093건 / 쇼핑몰 샘플 가격 등 전부 복원됨
+```
+덤프에는 `demo/demo1234` 데모 계정 하나만 포함 (비밀번호는 bcrypt 해시). FCM 토큰 등 디바이스 고유값은 제거됨.
+
 ### 백엔드
 ```bash
 cd backend
