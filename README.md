@@ -222,7 +222,35 @@ npx expo start --dev-client --tunnel
 
 ---
 
-## 7. 라이선스
+## 7. Contributors
+
+<table>
+  <tr>
+    <td align="center" width="200">
+      <a href="https://github.com/gm-15">
+        <img src="https://github.com/gm-15.png?size=100" width="100" height="100" alt="박건우"/>
+        <br/><sub><b>박건우 (gm-15)</b></sub>
+      </a>
+      <br/>백엔드 · ML
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/keonU206">
+        <img src="https://github.com/keonU206.png?size=100" width="100" height="100" alt="김건우"/>
+        <br/><sub><b>김건우 (keonU206)</b></sub>
+      </a>
+      <br/>웹 · 모바일 프론트엔드
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/ssm0521">
+        <img src="https://github.com/ssm0521.png?size=100" width="100" height="100" alt="심상묵"/>
+        <br/><sub><b>심상묵 (ssm0521)</b></sub>
+      </a>
+      <br/>외부 데이터 파이프라인
+    </td>
+  </tr>
+</table>
+
+## 8. 라이선스
 
 학교 캡스톤 프로젝트 결과물로, 비상업적 교육 목적의 참고용으로만 사용해 주세요.
 외부 공공 API(KAMIS/EKAPE/Naver) 는 각 기관의 약관을 따릅니다.
